@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:latest  #1.23.4       # <- Image Updater will update this tag
+          image: nginx:1.23.4  #latest       # <- Image Updater will update this tag
           ports:
             - containerPort: 80
