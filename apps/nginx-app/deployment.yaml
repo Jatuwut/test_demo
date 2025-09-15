@@ -20,4 +20,3 @@ spec:
           image: nginx:latest  #1.23.4# <- Image Updater will update this tag
           ports:
             - containerPort: 80
-          command: [echo "test"]
