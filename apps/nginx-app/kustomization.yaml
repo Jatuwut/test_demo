@@ -6,4 +6,4 @@ resources:
 
 images:
   - name: nginx
-    newTag: latest #1.23.4  #latest  <- Image Updater will automatically update this
+    newTag: 1.23.4  #latest  <- Image Updater will automatically update this
